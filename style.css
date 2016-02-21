@@ -1,0 +1,181 @@
+/*
+Theme Name: Proin One
+Theme URI: https://github.com/lcjury/proin-template
+Author: luis jury
+Author URI: https://lcjury.me/
+Description: 
+Version: 1.0
+License: 
+License URI:
+Text Domain: proin
+
+*/
+
+/* Sticky footer styles
+ * -------------------------------------------------- */
+html {
+position: relative;
+min-height: 100%;
+}
+body {
+/* Margin bottom by footer height */
+margin-bottom: 300px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 300px;
+background-color: #f5f5f5;
+}
+
+body.single-post.single-format-standard .article-body p{
+font-size: 21px;
+
+}
+
+
+/* Custom page CSS
+* -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+ padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+code {
+  font-size: 80%;
+}
+.border-bottom{
+  border-bottom: thin solid #777;
+}
+.border-bottom.lighter{
+  border-bottom-color: rgba(119,119,119,0.2);
+}
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+.article-header{
+margin-top: 0;
+}
+.featured, .blog-post {
+margin-bottom: 20px;
+}
+.label-big{
+font-size: 100%;
+margin: 2px;
+display: inline-block;
+}
+.widget{
+margin-bottom: 20px;
+}
+.twitter {
+}
+
+.latest-tweets li:before {    
+font-family: 'FontAwesome';
+content: '\f099';
+margin:0 0px 0 -30px;
+color: #5ea9dd;
+font-size: 16px;
+}
+.latest-tweets li{
+margin-top: 10px;
+list-style: none;
+border-bottom: rgba(119,119,119,0.2) solid thin;
+}
+.latest-tweets p.tweet-text{
+display: inline;
+margin-left: 10px;
+}
+.material-icons{
+font-size: 14px;
+}
+.light{
+color: #666;
+}
+
+.spacer{
+margin-top: 100px;
+}
+
+.white-back{
+background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 240, 240, 0.45)); 
+box-shadow: 0px 0px 6px black;
+}
+.black-back{
+background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 15, 15, 0.45)); 
+box-shadow: 0px 0px 6px black;
+color: white;
+}
+.black-back small{
+color: #ccc;
+}
+
+.post-header.parallax-window {
+  margin-top: 60px;
+  height:400px;
+}
+.post-header .col-lg-8{
+  height:400px;
+}
+.author-meta{
+    position:absolute;
+    right: 0;
+    bottom: -20px;
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer {
+    position: static;
+    height: auto;
+  }
+  body{
+    margin-bottom:0;
+  }
+  .post-header.parallax-window {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .post-header.parallax-window {
+    height:300px;
+  }
+  .post-header .col-lg-8{
+    height:300px;
+  }
+  
+}
+
+.row-content {
+position: absolute;
+}
+.circle-avatar{
+border-radius: 100%;
+}

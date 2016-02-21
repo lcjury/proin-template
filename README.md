@@ -1,6 +1,7 @@
 # programadores e informaticos chile website template
-=====
+
 Template diseñado para [programadores.cl](http://www.programadores.cl)
+=======
 
 ## Todo list
 1. Implementar búsqueda

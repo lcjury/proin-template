@@ -13,4 +13,5 @@ Template diseñado para [programadores.cl](http://www.programadores.cl)
 ## Notas
 
 1. El template añade soporte para el plugin [latest-tweets-widget](https://cl.wordpress.org/plugins/latest-tweets-widget)
-2. El sidebar del footer solo puede almacenar un maximo de 3 widgets.
+2. El template incluye una versión modificada del widget [wp-instagral-widget](https://github.com/scottsweb/wp-instagram-widget)
+3. El sidebar del footer solo puede almacenar un maximo de 3 widgets.

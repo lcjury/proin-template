@@ -13,7 +13,8 @@ show_admin_bar( false );
 
 // Register Custom Navigation Walker
 require_once('inc/wp_bootstrap_navwalker.php');
-
+// require instagram plugin
+require_once('inc/wp-instagram-widget.php');
 add_filter( 'wp_generate_tag_cloud_data', 'proin_tag_cloud_data');
 
 function proin_tag_cloud_data( $tags_data ) {
@@ -75,6 +76,7 @@ function proin_setup() {
 endif; // proin setup
 
 add_action( 'after_setup_theme', 'proin_setup' );
+
 
 
 /**
@@ -413,3 +415,21 @@ add_filter('latest_tweets_render_tweet', function( $html, $date, $link, array $t
 }, 10, 4 );
 
 add_filter('widget_title_pages', function(){ return "asd"; });
+
+
+/*
+ * Instagram widget filter for overriding behaviour
+ */
+add_filter('null_instagram_cache_time', 'my_cache_time');
+
+function my_cache_time() {
+    return 0;
+}
+//add_filter( 'wpiw_item_class', 'my_instagram_class' );
+add_filter( 'wpiw_a_class', 'my_instagram_class' );
+add_filter( 'wpiw_img_class', 'my_instagram_class' );
+
+function my_instagram_class( $classes ) {
+    $classes = "instagram-image";
+    return $classes;
+}

@@ -379,7 +379,7 @@ function proin_paging_nav() {
 	// Set up paginated links.
 	$links = paginate_links( array(
 		'format'   => $format,
-		'total'    => $wp_query->max_num_pages+8,
+		'total'    => $wp_query->max_num_pages,
 		'current'  => $paged,
 		'mid_size' => 4,
 		//'add_args' => array_map( 'urlencode', $query_args ),

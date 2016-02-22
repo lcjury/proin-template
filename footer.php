@@ -33,7 +33,7 @@
 <!-- parallax -->
 <script src="<?php echo get_template_directory_uri();?>/js/parallax.min.js"></script>
 <script>
-  $.material.init();
+  jQuery.material.init();
 </script>
 <?php wp_footer(); ?>
 </body>

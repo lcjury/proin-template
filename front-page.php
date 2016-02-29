@@ -29,7 +29,7 @@ get_header(); ?>
       </p>
     </div>
     <div class="col-md-5">
-      <img class="img-responsive center-block" src="http://www.programadores.cl/img/logo/logo.png">
+    <img class="img-responsive center-block" src="<?= get_template_directory_uri();?>/img/logo.png">
     </div>
   </div>
 </div>
@@ -40,11 +40,11 @@ get_header(); ?>
     <div class="container">
       <h2> Nuestros partners </h2>
       <div id="owl-demo">
-        <div class="item"><img src="http://www.programadores.cl/img/comunidades/noders.png" alt="Owl Image"></div>
-        <div class="item"><img src="http://www.programadores.cl/img/comunidades/appmovil.jpg" alt="Owl Image"></div>
-        <div class="item"><img src="http://www.programadores.cl/img/comunidades/capa8tv.jpg" alt="Owl Image"></div>
-        <div class="item"><img src="http://www.programadores.cl/img/comunidades/hackingcl.png" alt="Owl Image"></div>
-        <div class="item"><img src="http://www.programadores.cl/img/comunidades/betabeer.jpg" alt="Owl Image"></div>
+        <div class="item"><img src="<?= get_template_directory_uri();?>/img/noders.png" alt="Noders"></div>
+        <div class="item"><img src="<?= get_template_directory_uri();?>/img/appmovil.jpg" alt="Aplicaciones moviles chile"></div>
+        <div class="item"><img src="<?= get_template_directory_uri();?>/img/capa8tv.jpg" alt="Capa 8 TV"></div>
+        <div class="item"><img src="<?= get_template_directory_uri();?>/img/hackingcl.png" alt="hacking chile"></div>
+        <div class="item"><img src="<?= get_template_directory_uri();?>/img/betabeer.jpg" alt="beta beers"></div>
       </div>
     </div>
   </div>
@@ -55,32 +55,32 @@ get_header(); ?>
   <br/>
   <div class="row text-center">
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/ricardo_castillo.jpg" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/ricardo_castillo.jpg" alt="ricardo castillo" width="140" height="140">
       <h3>Ricardo Castillo</h3>
       <p>Backend Developer y CoFounder AppFactory Ltda. Backend Developer principalmente en JS y PHP.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/kevin_zelada.jpg" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/kevin_zelada.jpg" alt="kevin zelada" width="140" height="140">
       <h2>Kevin Zelada Ruff</h2>
       <p>Backend Developer principalmente en Python y Django. Emprendedor tecnológico siempre en búsqueda de nuevos desafíos y proyectos interesantes.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/mauricio_lineros.jpg" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/mauricio_lineros.jpg" alt="mauricio lineros" width="140" height="140">
       <h2>Mauricio Lineros</h2>
       <p>Soy un apasionado de la tecnología, la educación y el crecimiento personal. Soy padre de dos bellos pequeños y ademas un amante de la lectura.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/elvis_romero.jpg" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/elvis_romero.jpg" alt="elvis romero" width="140" height="140">
       <h2>Elvis Romero</h2>
       <p>Analista IT en FOLLOW UP COMUNICACION. Estudiante de Tercer año de la carrera de Ingeniería en Informática, amante de la computacion y la informatica.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/gustavo_inzunza.jpg" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/gustavo_inzunza.png" alt="gustavo inzunza" width="140" height="140">
       <h2>Gustavo Inzunza</h2>
       <p>I'm a Software Engineer. I'm interested in Data Structures, Optimization and Ruby On Rails.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="img-circle" src="http://www.programadores.cl/img/equipo/" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="<?= get_template_directory_uri();?>/img/unknown.jpg" alt="siguiente miembro" width="140" height="140">
       <h2>¡Este podrias ser tu!. </h2>
       <p>Escribenos por nuestras redes sociales. Siempre necesitamos apoyo y blabla lorem ipsum</p>
     </div><!-- /.col-lg-4 -->

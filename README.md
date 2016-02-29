@@ -2,6 +2,8 @@
 =======
 Template diseñado para [programadores.cl](http://www.programadores.cl)
 
+![alt-tag](https://raw.githubusercontent.com/lcjury/proin-template/master/screenshot.png)
+
 ## Todo list
 1. Implementar búsqueda
 2. Implementar formato **aside** para articulos

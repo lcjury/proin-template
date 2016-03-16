@@ -96,7 +96,7 @@ get_header(); ?>
     <div class="col-md-6">
       <h2>Nuestros Miembros </h2>
       <p class="lead">Somos una comunidad en constante crecimiento.</p>
-      <p class="lead">Lorem Ipsum el jury está rico(8), lorem ispum el jury es bacan(8). lorem ipsum asimet dolor atrevis nead admites</p>
+      <p class="lead">En Proin Chile crecemos constantemente en todas nuestras redes, donde nuestra comunidad comparte desde conocimiento hasta gratas platicas. Acá se puede ver el crecimiento mes a mes.</p>
     </div>
   </div>
 </div>

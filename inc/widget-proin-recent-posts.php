@@ -86,10 +86,11 @@ class Widget_Proin_Recent_Posts extends WP_Widget {
 			echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
 		<div class="list-group">
-		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
+		<?php while ( $r->have_posts() ) : $r->the_post(); 
+		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
 			<div class="list-group-item"> 
 			<div class="row-picture">
-              			<img class="circle" src="https://www.digitalocean.com/company/blog/scaling-php/hero-e6ee02a3.jpg" alt="icon">
+              			<img class="circle" src="<?= $url ?>" alt="icon">
 	                </div>
 			<div class="row-content">
 				<h4 class="list-group-item-heading"><a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a></h4>
